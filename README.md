@@ -4,4 +4,4 @@ In this module admin can manage roles and users in admin panel. Only `admin role
 Above 5.0
 # Screenshot
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://i.imgur.com/f0T7iyL.png)
