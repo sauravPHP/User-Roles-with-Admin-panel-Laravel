@@ -1,0 +1,87 @@
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px;    margin-top: 30px;}
+    
+    /* Set gray background color and 100% height */
+   .sidenav {
+    height: 100%;box-shadow: 5px 0 5px -2px #ddd;
+}
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+    .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+	span.cnt {
+    position: absolute;
+    right: 8px;
+    background: #f2f0f1;
+    padding: 0px 6px;
+    color: #28c3e6;
+    font-size: 12px;
+    font-weight: 700;
+    top: 10px;
+}
+	.sidenav>ul{
+	position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: none;
+	}
+	body {
+    background-color: #e6ece7;
+}
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }
+div#cssmenu .list-group-item.active {
+        background-color: #28c3e6;
+    color: #fff;
+    border: none;
+}
+div#cssmenu>ul>li>a {
+    color: #fff;
+}
+div#cssmenu li a {
+        text-decoration: none;
+    width: 100%;
+    display: table;
+    color: #fff;
+	    font-size: 16px;
+}
+div#cssmenu ul ul li {
+    list-style-type: none;
+    padding: 3px 0;
+}
+div#cssmenu ul ul {
+        margin: 0 0;
+    padding: 0 0 0 13px;
+    font-size: 14px;
+    display: none;
+}
+div#cssmenu li {
+    padding: 7px 16px;
+}
+div#cssmenu>ul>li {
+    background-color: #28c3e6;
+    margin-bottom: 5px;
+}
+.navbar.bg-light {
+    background-color: #28c3e6 !important;
+}
